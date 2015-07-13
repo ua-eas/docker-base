@@ -11,7 +11,7 @@ RUN \
     vim \ 
     wget \
     ruby \
-    ruby-dev \
+    ruby-dev && \
   rm -rf /var/lib/apt/lists/* 
   
 RUN rm /etc/localtime 
