@@ -8,7 +8,8 @@ RUN \
   apt-get update && apt-get install -y \
     git \
     unzip \
-    vim \ 
+    vim \
+    telnet \
     wget \
     ruby \
     ruby-dev && \
@@ -27,3 +28,4 @@ WORKDIR /root
 
 # Define default command.
 CMD ["bash"]
+
