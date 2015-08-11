@@ -11,6 +11,7 @@ RUN \
     vim \
     telnet \
     wget \
+    curl \
     ruby \
     ruby-dev && \
   rm -rf /var/lib/apt/lists/* 
